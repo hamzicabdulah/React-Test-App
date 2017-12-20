@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack && npm run start:server",
-    "start:server": "ts-node .",
+    "start": "ts-node .",
     "dev:client": "webpack -wd",
-    "dev": "npm-run-all --parallel start:server dev:client"
+    "dev": "npm-run-all --parallel start dev:client"
   },
   "repository": {
     "type": "git",
